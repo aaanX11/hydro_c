@@ -1,4 +1,6 @@
+#pragma once
 #include <stdio.h>
+#pragma once
 #include <stdlib.h>
 #include <assert.h>
 #include <string.h>
@@ -8,7 +10,7 @@
 #define __GLOBAL__
 extern int n[3];
 extern int ***lays;
-extern double ****p;			/*nx*ny*nz*/
+extern double ****p;			/*(nx+4)*(ny+4)*(nz+4)*/
 extern double ****dif_p_x;
 extern double ****dif_p_y;
 extern double ****dif_p_z;

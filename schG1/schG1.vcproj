@@ -45,6 +45,7 @@
 				RuntimeLibrary="3"
 				WarningLevel="3"
 				DebugInformationFormat="4"
+				ShowIncludes="false"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -162,15 +163,19 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\global.c"
+				RelativePath=".\global.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\main.c"
+				RelativePath=".\main.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\step.c"
+				RelativePath=".\riem_cud.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\step.cpp"
 				>
 			</File>
 		</Filter>
@@ -181,6 +186,14 @@
 			>
 			<File
 				RelativePath=".\global.h"
+				>
+			</File>
+			<File
+				RelativePath=".\riemi.h"
+				>
+			</File>
+			<File
+				RelativePath=".\step.h"
 				>
 			</File>
 		</Filter>
